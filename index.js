@@ -13,17 +13,17 @@ const questions = [ {
   {
     type: 'input',
     name: 'description',
-    message: 'enter brief description of project',
+    message: 'Enter brief description of project',
   },
   {
     type: 'input',
     name: 'installation',
-    message: 'how to install the project',
+    message: 'How to install the project',
   },
   {
     type: 'input',
     name: 'usage',
-    message: 'how to use the project',
+    message: 'How to use the project',
   },
   {
     type: 'input',
@@ -33,24 +33,24 @@ const questions = [ {
   {
     type: 'input',
     name: 'contributing',
-    message: 'how to contribute to this project',
+    message: 'How to contribute to this project',
   },
   {
     type: 'input',
     name: 'test',
-    message: 'how to run the test product',
+    message: 'How to run a test for this product',
   },
   {
     type: 'input',
     name: 'email',
-    message: 'what is your email? ',
+    message: 'What is your email? ',
   },
   {
     type: 'list',
     name: 'license',
     message: 'choose a license for your project ',
     choices: ['MIT','Apache_2.0,"BSD 3',"BSD 2", "GPL 3.0", "none"]
-  o},
+  },
 
 ];
 

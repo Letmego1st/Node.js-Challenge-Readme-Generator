@@ -14,7 +14,61 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
+${renderLicenseBadge(data.license)}
+## Description
+This app allows developers to create a professional READ.me file in a way the is clean, efficient and simple to use.
+
+${data.description}
+
+## Table of Contents
+
+-[Installation] (#Installation)
+-[Usage] (#Usage)
+-[github] (#github)
+-[Contributions] (#Contributions)
+-[Test] (#Test)
+-[Email] (#Email)
+-[License] (#License)
+
+## Installation
+The following dependencies must be instaleed to run the application properly: inquirer, fs, utils
+
+${data.installation}
+
+## Usage
+In order to use this app, run it in the terminal
+
+${data.usage}
+
+## github
+https://github.com/Letmego1st/Node.js-Challenge-Readme-Generator/blob/main/index.js
+
+${data.github}
+
+## Contributions
+Contributors: N/A
+
+${data.contributions}
+
+## Test
+The following is needed to run test: node index.js
+
+${data.test}
+
+## Email
+The following is needed to run test: node index.js
+${data.email}
+
+## license
+This project is licensed under the MIT license.
+
+${renderLicenseBadge(data.license)}
+
+  `;
 }
 
 module.exports = generateMarkdown;
+
+
+
+
