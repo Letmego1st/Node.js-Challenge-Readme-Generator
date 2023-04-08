@@ -16,7 +16,7 @@ function generateMarkdown(data) {
 
 ${renderLicenseBadge(data.license)}
 ## Description
-This app allows developers to create a professional READ.me file in a way the is clean, efficient and simple to use.
+This app allows developers to create a professional READ.me file in a way that is clean, efficient and simple to use.
 
 ${data.description}
 
