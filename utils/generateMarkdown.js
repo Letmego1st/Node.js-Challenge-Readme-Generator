@@ -56,7 +56,7 @@ The following is needed to run test: node index.js
 ${data.test}
 
 ## Email
-The following is needed to run test: node index.js
+The following email will be used for contact purposes: imalways1st@me.com 
 ${data.email}
 
 ## license
