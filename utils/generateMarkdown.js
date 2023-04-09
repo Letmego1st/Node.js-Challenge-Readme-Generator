@@ -62,7 +62,6 @@ ${data.email}
 ## license
 This project is licensed under the MIT license.
 
-${renderLicenseBadge(data.license)}
 
   `;
 }
