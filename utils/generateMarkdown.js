@@ -31,7 +31,7 @@ ${data.description}
 -[License] (#License)
 
 ## Installation
-The following dependencies must be instaleed to run the application properly: inquirer, fs, utils
+The following dependencies must be installed to run the application properly: inquirer, fs, utils.
 
 ${data.installation}
 
@@ -41,7 +41,7 @@ In order to use this app, run it in the terminal
 ${data.usage}
 
 ## github
-https://github.com/Letmego1st/Node.js-Challenge-Readme-Generator/blob/main/index.js
+https://github.com/Letmego1st/Node.js-Challenge-Readme-Generator
 
 ${data.github}
 
@@ -62,6 +62,7 @@ ${data.email}
 ## license
 This project is licensed under the MIT license.
 
+${renderLicenseBadge(data.license)}
 
   `;
 }
