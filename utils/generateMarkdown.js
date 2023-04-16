@@ -24,6 +24,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 ## Description
+![](https://github.com/nicolewallace09/readme-generator/raw/master/utils/README-GENERATOR%20(1).gif)
 
 
 ${data.description}
@@ -49,6 +50,7 @@ ${data.installation}
 ${data.usage}
 
 ## github
+https://github.com/Letmego1st/Node.js-Challenge-Readme-Generator/blob/main/README.md
 
 
 ${data.github}
